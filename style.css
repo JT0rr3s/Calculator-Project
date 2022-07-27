@@ -81,3 +81,11 @@ main > section > div {
     height: 9vh;
     width: 100%;
 }
+.sixth-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-area: 6/1;
+    border: 5px solid black;
+    height: 9vh;
+    width: 100%;
+}
