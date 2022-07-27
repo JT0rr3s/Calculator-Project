@@ -44,3 +44,21 @@ main > section > div {
     border: 5px solid black;
     background-color: gray;
 }
+
+.second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-area: 2/1;
+    border: 5px solid black;
+    height: 9vh;
+    width: 100%;
+
+}
+.third-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-area: 3/1;
+    border: 5px solid black;
+    height: 9vh;
+    width: 100%;
+}
