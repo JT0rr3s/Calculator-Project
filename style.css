@@ -28,3 +28,19 @@ main {
     height: 50%;
     width: 25%;
 }
+
+.first-row {
+    display: grid;
+    border: 5px solid black;
+    grid-template-columns: 4fr;
+    grid-area: 1/1;
+    height: 9vh;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main > section > div {
+    border: 5px solid black;
+    background-color: gray;
+}
