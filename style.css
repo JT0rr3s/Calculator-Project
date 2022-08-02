@@ -148,6 +148,7 @@ main > section > div {
 
 .divide {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .divide:hover {
@@ -156,6 +157,7 @@ main > section > div {
 
 .seventh {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .seventh:hover {
@@ -164,6 +166,7 @@ main > section > div {
 
 .eighth {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .eighth:hover {
@@ -172,6 +175,7 @@ main > section > div {
 
 .ninth {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .ninth:hover {
@@ -180,6 +184,7 @@ main > section > div {
 
 .multiply {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .multiply:hover {
@@ -188,6 +193,7 @@ main > section > div {
 
 .fourth {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .fourth:hover {
@@ -196,6 +202,7 @@ main > section > div {
 
 .fifth {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .fifth:hover {
@@ -204,6 +211,7 @@ main > section > div {
 
 .sixth {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .sixth:hover {
@@ -212,6 +220,7 @@ main > section > div {
 
 .subtract {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .subtract:hover {
@@ -220,6 +229,7 @@ main > section > div {
 
 .first {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .first:hover {
@@ -228,6 +238,7 @@ main > section > div {
 
 .second {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .second:hover {
@@ -236,6 +247,7 @@ main > section > div {
 
 .third {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .third:hover {
@@ -244,6 +256,7 @@ main > section > div {
 
 .plus {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .plus:hover {
@@ -252,6 +265,7 @@ main > section > div {
 
 .zero {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .zero:hover {
@@ -260,6 +274,7 @@ main > section > div {
 
 .decimal {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .decimal:hover {
@@ -268,6 +283,7 @@ main > section > div {
 
 .equals {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .equals:hover {
