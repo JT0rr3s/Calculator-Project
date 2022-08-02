@@ -10,7 +10,7 @@ const button6 = document.querySelector(".sixth");
 const button7 = document.querySelector(".seventh");
 const button8 = document.querySelector(".eighth");
 const button9 = document.querySelector(".ninth");
-const buttonPlus = document.querySelector(".plus");
+const buttonAdd = document.querySelector(".plus");
 const buttonSubtract = document.querySelector(".subtract");
 const buttonMultiply = document.querySelector(".multiply");
 const buttonDivide = document.querySelector(".divide");
@@ -18,7 +18,7 @@ const output = document.querySelector(".output");
 const display = document.querySelector(".calc-field");
 const buttons = document.querySelector("button");
 const operator = document.querySelector(".operator");
-const decimal = document.querySelector(".decimal");
+const buttonDecimal = document.querySelector(".decimal");
 const equals = document.querySelector(".equals");
 
 let operatorSymbol = "";
@@ -36,12 +36,12 @@ equals.addEventListener("click", () => {
     }else if (operatorSymbol == '/') {
         const resultArray = output.textContent.split('/')
         display.textContent = Number(resultArray[0]) / Number(resultArray[1]);
-    }
-})
+    } else {}
+}) 
 
 // Mathematical Operators
 
-buttonPlus.addEventListener("click", () => {
+buttonAdd.addEventListener("click", () => {
     display.textContent = '';
     output.innerHTML += '+';
     operatorSymbol = '+';
@@ -63,6 +63,17 @@ buttonDivide.addEventListener("click", () => {
     display.textContent = '';
     output.innerHTML += '/';
     operatorSymbol = '/';
+})
+
+buttonDecimal.addEventListener("click", () => {
+// if (output.innerHTML.includes('.')) return;
+    display.textContent = '';
+    output.innerHTML += '.';
+})
+
+buttonPercent.addEventListener("click", () => {
+    display.textContent /= 100;
+    output.innerHTML /= 100;
 })
 
 
@@ -117,9 +128,3 @@ button9.addEventListener("click", () => {
     display.textContent += Number(button9.value);
     output.innerHTML += '9';
 })
-
-button0.addEventListener("click", () => {
-    display.textContent = Number(button0.value);
-    output.innerHTML = '0';
-})
-    
