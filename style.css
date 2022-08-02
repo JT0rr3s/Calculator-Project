@@ -129,6 +129,7 @@ main > section > div {
 
 .percent {
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .percent:hover {
@@ -138,6 +139,7 @@ main > section > div {
 .ac-button {
     border-radius: 10px;
     background-color: #f77f6f;
+    border: 1px solid black;
 }
 
 .ac-button:hover {
